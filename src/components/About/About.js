@@ -12,7 +12,7 @@ function About() {
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
             <h2 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              About <strong className="teal">Me</strong>
+              Dr. Nadia Saeed | <strong className="teal">NLP Expert: Transforming Textual Data into Insights</strong>
             </h2>
             <Aboutcard />
         </Row>

@@ -16,7 +16,7 @@ function Home() {
             <Col md={12} className="home-header">
               <div className="content-container">
                 <h1 className="heading">
-                 Hi, I'm <strong className="main-name">Saleha Muzammil</strong>.
+                 Hi, I'm <strong className="main-name">Nadia Saeed</strong>.
                 </h1>
                 <div className="type-container">
                   <Type />
@@ -25,8 +25,8 @@ function Home() {
                 </div>
                 <div className="paragraph-container">
                   <p>
-                    A self-driven and determined individual with a passion for <span className="teal">Applied Machine Learning</span>.
-                    <br /> Committed to working on solving real-life challenges through ML to make the world a better place.
+                    A self-driven and determined individual with a passion for <span className="teal">Natural Language Processing | Deep Generative Model |Machine Learning</span>.
+                    <br /> Committed to working on solving real-life challenges through Generative AI to make the world a better place.
                   </p>
                 </div>
               <Col md={12}>
@@ -34,7 +34,7 @@ function Home() {
                   <ul className="home-about-social-links">
                     <li className="social-icons">
                       <a
-                        href="https://github.com/saleha-muzammil"
+                        href="https://github.com/NadiaSaeed"
                         target="_blank"
                         rel="noreferrer"
                         className="icon-colour  home-social-icons"
@@ -44,17 +44,7 @@ function Home() {
                     </li>
                     <li className="social-icons">
                       <a
-                        href="https://twitter.com/MuzammilSaleha"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="icon-colour  home-social-icons"
-                      >
-                        <AiOutlineTwitter />
-                      </a>
-                    </li>
-                    <li className="social-icons">
-                      <a
-                        href="https://www.linkedin.com/in/salehamuzammil/"
+                        href="https://linkedin.com/in/nadia-saeed-phd-408980245/"
                         rel="noreferrer"
                         target="_blank"
                         className="icon-colour  home-social-icons"

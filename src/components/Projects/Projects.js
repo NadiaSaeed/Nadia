@@ -1,80 +1,81 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import haqbaat from "../../Assets/Projects/haqbaat.jpeg";
-import birthday from "../../Assets/Projects/birthday.png";
-import apnacomp from "../../Assets/Projects/apnacomp.png";
-import house from "../../Assets/Projects/house.jpg";
-import raftaar from "../../Assets/Projects/raftaar.png";
-import meme from "../../Assets/Projects/meme.png";
-
+import medtcs from "../../Assets/Projects/medtcs.jpeg";
+import MedTSS from "../../Assets/Projects/MedTSS.png";
+import Mediqa1 from "../../Assets/Projects/corr1stepp.png";
+import Mediqa11 from "../../Assets/Projects/corr2stepp.jpg";
+import Mediqa2 from "../../Assets/Projects/modelm3g.png";
+import crispr from "../../Assets/Projects/aihero.jpeg";
+import rag from "../../Assets/Projects/th.jpeg";
 function Projects() {
   return (
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
-          Recent <strong className="teal">Projects </strong>
+          Published <strong className="teal">Research Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects (2023-2024).
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={haqbaat}
+              imgPath={medtcs}
               isBlog={false}
-              title="HaqBaat Bot"
-              description="Haqbaat is a WhatsApp bot designed to empower and uplift Pakistani women by providing them an easy interface to access information regarding their rights in Pakistan. The bot is built to interact with users in Roman Urdu, making it convenient for women to communicate and obtain information easily. Built using Twilio API, OpenAI API, Flask , and Python."
-              ghLink="https://github.com/saleha-muzammil/HaqBaat-bot"            />
+              title="MedTCS"
+              description="This project aims to provide an Medical Terminology based Computing System (MedTCS): a lightweight post-processing solution for out-of-vocabulary(OOV) multi-word terms. MedTCS is a natural language processing system helps the distributed representation models (like: Word2Vec, GloVe) to handle the OOV problem effectively."
+              ghLink="https://github.com/NadiaSaeed/MedTCS"            />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={apnacomp}
+              imgPath={MedTSS}
               isBlog={false}
-              title="Apna Computer"
-              description="Apna Computer is a web application that helps users build custom PC configurations by selecting compatible parts from a vast inventory. It is built using the MERN stack (MongoDB, Express, React, Node.js) and features a beautiful user interface designed for a seamless user experience. "
-              ghLink="https://github.com/saleha-muzammil/Apna-Computer"
+              title="MedTSS"
+              description="MedTSS employs a sequence of components to process a journal article, with each component gradually contributing to information extraction for the summarizer to use. The MedTSS accepts a plain scientific journal article with its keywords and MeSH terms in either TXT or XML document. The current open-source release consists of the following steps that process the source text for effective information extraction."
+              ghLink="https://github.com/NadiaSaeed/MedTSS"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={house}
+              imgPath={Mediqa1,Mediqa11}
               isBlog={false}
-              title="House Price Prediction Using Real Estate Data"
-              description="A machine learning project that predicts house prices using linear regression with L2 regularization. The model was trained using a dataset of house features, and evaluated using R2, MSE, RMSE, and MAE metrics.  Built using Flask, and Python."
-              ghLink="https://github.com/saleha-muzammil/House-Price-Prediction-Using-Real-Estate-Data"
+              title="MediFact-MEDIQA-CORR-2024"
+              description="Weak Supervision Fine-tunned Models"
+              ghLink="https://github.com/NadiaSaeed/MediFact-MEDIQA-CORR-2024"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={birthday}
+              imgPath={Mediqa2}
               isBlog={false}
-              title="Auto Birthday Wisher Bot"
-              description="The Automated WhatsApp Birthday Wishes project is a Python script that uses the Selenium WebDriver to automate the process of sending birthday wishes to your friends and family on WhatsApp."
-              ghLink="https://github.com/saleha-muzammil/auto-birthday-wisher-whatsapp"
+              title="MediFact-M3G-MEDIQA-2024"
+              description="VGG16 Fine-tunned Models
+"
+              ghLink="https://github.com/NadiaSaeed/MediFact-M3G-MEDIQA-2024"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={raftaar}
+              imgPath={crispr}
               isBlog={false}
-              title="Raftaar"
+              title="CRISPR-NLP-and-Deep-Generative-AI"
               description="(Upcoming)"
-              ghLink="https://github.com/saleha-muzammil/Raftaar"
+              ghLink="https://github.com/NadiaSaeed/CRISPR-NLP-and-Deep-Generative-AI"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={meme}
+              imgPath={rag}
               isBlog={false}
-              title="Meme Sensei"
+              title="AI-RAG-Agents"
               description="(Upcoming)"
-              ghLink="https://github.com/saleha-muzammil/Raftaar"
+              ghLink="https://github.com/NadiaSaeed/AI-RAG-Agents"
             />
           </Col>
         </Row>

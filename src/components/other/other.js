@@ -6,16 +6,6 @@ const photos = [
   { src: require("../../Assets/art/im1.png"), width: 800, height: 900 },
   { src: require("../../Assets/art/im2.png"), width: 800, height: 1000 },
   { src: require("../../Assets/art/im3.png"), width: 1000, height: 900 },
-  { src: require("../../Assets/art/im4.png"), width: 1000, height: 900 },
-  { src: require("../../Assets/art/im5.png"), width: 800, height: 600 },
-  { src: require("../../Assets/art/im6.png"), width: 800, height: 600 },
-  { src: require("../../Assets/art/im7.png"), width: 800, height: 600 },
-  { src: require("../../Assets/art/im8.png"), width: 800, height: 600 },
-  { src: require("../../Assets/art/im9.png"), width: 500, height: 600 },
-  { src: require("../../Assets/art/im10.png"), width: 800, height: 600 },
-  { src: require("../../Assets/art/im11.png"), width: 800, height: 600 },
-  { src: require("../../Assets/art/im12.png"), width: 800, height: 600 },
-  { src: require("../../Assets/art/im13.png"), width: 800, height: 600 },
 ];
 
 export default function Other() {
@@ -24,40 +14,46 @@ export default function Other() {
          <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <h1 style={{ fontSize: "2.4em", paddingBottom: "20px" }}>
-            Extra<strong className="teal">Curricular</strong>
+            Life-Changing <strong className="teal">Moments</strong>
           </h1>
+          <p style={{ fontSize: "1.2em", textAlign: "justify" }}>
+            I am excited to share some pivotal moments in my journey that have             profoundly impacted my career and personal growth. These experiences             have shaped my approach to research and innovation, and I hope they             inspire others as well.
+          </p>
           <ul style={{ listStyle: "none", padding: 0 }}>
             <li style={{ fontSize: "1.2em" }}>
               <strong>
                 <a
-                  href="https://www.ted.com/tedx/events/52803"
+                  href="https://www.linkedin.com/posts/nadia-saeed-phd-408980245_grateful-academicjourney-milestone-activity-7128079647749124096-IXBM?utm_source=share&utm_medium=member_desktop"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="teal-link"
                 >
-                  TEDxFASTLahore
+                  My Career Milestone
+
                 </a>
               </strong>
-              , Organizer (2023)
+              : Reflecting on a significant career achievement and its impact on my professional trajectory.
+
             </li>
             <li style={{ fontSize: "1.2em" }}>
-              CCS, FAST Lahore, General Secretary (2022-23)
+              CCS, FAST Islamabad, PhD(CS) (Dec-2023)
             </li>
           </ul>
         </Row>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Art & <strong className="teal">Calligraphy</strong>
+              Inspirational <strong className="teal">Growth</strong>
             </h1>
             <p style={{fontSize: "1.2em"}}>
-                My art account:  
+             : Sharing an inspiring moment of personal and professional growth that has been a turning point in my journey.
+  
                 <strong>
                 <a
-                  href="https://www.instagram.com/artbysaleha"
+                  href="hhttps://www.linkedin.com/posts/nadia-saeed-phd-408980245_icteducation-techinnovation-fineartstech-activity-7153085542392356864-iQDw?utm_source=share&utm_medium=member_desktop"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="teal-link"
-                > @artbysaleha
+                > @FJWU(2023)
                 </a>
               </strong>
             </p>

@@ -102,7 +102,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://www.educative.io/profile/view/6734745937641472"
+                href="https://www.linkedin.com/in/nadia-saeed-phd-408980245/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -112,7 +112,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/saleha-muzammil/portfolio"
+                href="https://github.com/NadiaSaeed/portfolio2024"
                 target="_blank"
                 className="fork-btn-inner"
               >

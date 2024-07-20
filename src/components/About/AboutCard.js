@@ -9,27 +9,16 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
           I am based in <a href="https://www.google.com/maps?q=Lahore,Pakistan" target="_blank" rel="noopener noreferrer" className="teal-link">Lahore, Pakistan</a>.
-<br /> I am a Senior Year student, pursuing a Bachelor's in Computer Science from <a href="https://www.nu.edu.pk/" target="_blank" rel="noopener noreferrer" className="teal-link">FAST-NUCES</a>.
-<br /> My interests are centered around Machine Learning and its applications. With hands-on experience in working with ML models, I have served as a Research Assistant on projects related to NLP, ML, and Vision.
-<br/> I am also an <a href="https://www.instagram.com/artbysaleha" target="_blank" rel="noopener noreferrer" className="teal-link">artist</a> with a love for Arabic calligraphy (Khat-e-Suls).
+<br /> I'm a data scientist fueled by a fascination with language and its potential in the age of AI.  My Ph.D. in Computer Science from <a href="https://www.nu.edu.pk/" target="_blank" rel="noopener noreferrer" className="teal-link">FAST-NUCES</a> equips me with the technical prowess to unlock insights from text.
+<br /> Natural Language Processing (NLP) is my playground, where I craft innovative solutions to bridge the gap between humans and machines.
+<br/> I'm passionate about leveraging NLP to solve real-world challenges.  From enhancing healthcare diagnostics to exploring the future of gene editing, my work delves into the exciting intersection of language and cutting-edge technology.
 <br/>
 <br/>
 
           </p>
-          <h2 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              What am I <strong className="teal">working</strong> on ?
-            </h2>
-          <ul style={{ listStyleType: "disc", paddingLeft: 30 }}>
-            <li className="about-activity">
-            <FaCaretRight className="bullet-icon" /> <strong className="teal"> FedMed: </strong> Working on increasing accuracy in Retinal Vessels Segmentation implemented on a Federated Learning Framework
-            </li>
-            <li className="about-activity">
-            <FaCaretRight className="bullet-icon" /><strong className="teal"> Kahaani: </strong> Working on enhancing an assistive, e-learning platform to enhance Urdu language of students through a TTS implementation
-            </li>
-            <li className="about-activity">
-            <FaCaretRight className="bullet-icon" /><strong className="teal"> Omdena Project: </strong> Enhancing Orphanage Well-Being Through Computer Vision by accurately determing children's emotional states and activities
-            </li>
-          </ul>
+          <h2 style="font-size: 2.5em; color: #2c3e50; text-align: center; margin-top: 30px;">
+    <strong className="teal">Join Me</strong> on This Journey of <span style="color: #16a085;">Discovery</span>, Where the <span style="color: #e74c3c;">Possibilities</span> of <span style="color: #2980b9;">NLP</span> and <span style="color: #8e44ad;">AI</span> Continue to <span style="color: #f39c12;">Unfold</span>.
+</h2>
 
         </blockquote>
       </Card.Body>

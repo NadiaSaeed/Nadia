@@ -1,6 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
+import { SiOpenai } from "react-icons/si";
+import { SiRstudio } from "react-icons/si";
+
 import {
   DiJavascript1,
   DiReact,
