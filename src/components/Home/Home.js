@@ -24,8 +24,6 @@ function Home() {
                   <br/>
                   <br/>
                   <br/>
-                  <br/>
-                  <br/>
                 </div>
                 <div className="paragraph-container">
                   <p>
