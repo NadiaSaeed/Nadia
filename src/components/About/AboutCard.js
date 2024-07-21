@@ -15,10 +15,9 @@ function AboutCard() {
 <br/>
 
           </p>
-          <h2 style="font-size: 2.5em; color: #2c3e50; text-align: center; margin-top: 30px;">
-    <strong className="teal">Join Me</strong> on This Journey of <span style="color: #16a085;">Discovery</span>, Where the <span style="color: #e74c3c;">Possibilities</span> of <span style="color: #2980b9;">NLP</span> and <span style="color: #8e44ad;">AI</span> Continue to <span style="color: #f39c12;">Unfold</span>.
-</h2>
-
+             <h2 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+               <strong className="teal">Join Me</strong> on This Journey of Discovery, Where the Possibilities of NLP and AI Continue to Unfold.
+            </h2>
         </blockquote>
       </Card.Body>
     </Card>
