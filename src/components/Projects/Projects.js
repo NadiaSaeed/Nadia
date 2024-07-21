@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import medtcs from "../../Assets/Projects/medtcs.jpeg";
+import medtcs from "../../Assets/Projects/medtcs.jpg";
 import MedTSS from "../../Assets/Projects/MedTSS.png";
 import Mediqa1 from "../../Assets/Projects/merge.jpg";
-import Mediqa2 from "../../Assets/Projects/modelm3g.png";
-import crispr from "../../Assets/Projects/aihero.jpeg";
+import Mediqa2 from "../../Assets/Projects/modelm3g.jpg";
+import crispr from "../../Assets/Projects/aihero.jpg";
 import rag from "../../Assets/Projects/th.jpeg";
 function Projects() {
   return (
