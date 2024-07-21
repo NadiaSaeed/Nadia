@@ -6,7 +6,6 @@ import {
   SiVisualstudiocode,
   SiSlack,
   SiLinux,
-  SiGooglecolab
 } from "react-icons/si";
 
 function Toolstack() {

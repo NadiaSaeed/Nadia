@@ -3,9 +3,9 @@ import { Container, Row } from "react-bootstrap";
 import PhotoAlbum from "react-photo-album";
 
 const photos = [
-  { src: require("../../Assets/art/im1.png"), width: 800, height: 900 },
-  { src: require("../../Assets/art/im2.png"), width: 800, height: 1000 },
-  { src: require("../../Assets/art/im3.png"), width: 1000, height: 900 },
+  { src: require("../../Assets/art/im1.png"), width: 800, height: 500 },
+  { src: require("../../Assets/art/im2.png"), width: 800, height: 500 },
+  { src: require("../../Assets/art/im3.png"), width: 800, height: 500 },
 ];
 
 export default function Other() {
@@ -49,7 +49,7 @@ export default function Other() {
   
                 <strong>
                 <a
-                  href="hhttps://www.linkedin.com/posts/nadia-saeed-phd-408980245_icteducation-techinnovation-fineartstech-activity-7153085542392356864-iQDw?utm_source=share&utm_medium=member_desktop"
+                  href="https://www.linkedin.com/posts/nadia-saeed-phd-408980245_icteducation-techinnovation-behaviouralsciencestech-activity-7153391962530721792-82XZ?utm_source=share&utm_medium=member_desktop"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="teal-link"

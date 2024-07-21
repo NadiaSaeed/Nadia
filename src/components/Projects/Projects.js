@@ -3,8 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import medtcs from "../../Assets/Projects/medtcs.jpeg";
 import MedTSS from "../../Assets/Projects/MedTSS.png";
-import Mediqa1 from "../../Assets/Projects/corr1stepp.png";
-import Mediqa11 from "../../Assets/Projects/corr2stepp.jpg";
+import Mediqa1 from "../../Assets/Projects/merge.jpg";
 import Mediqa2 from "../../Assets/Projects/modelm3g.png";
 import crispr from "../../Assets/Projects/aihero.jpeg";
 import rag from "../../Assets/Projects/th.jpeg";
@@ -40,7 +39,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Mediqa1,Mediqa11}
+              imgPath={Mediqa1}
               isBlog={false}
               title="MediFact-MEDIQA-CORR-2024"
               description="Weak Supervision Fine-tunned Models"
